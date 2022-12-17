@@ -1,0 +1,502 @@
+html {
+    max-width: 100%;
+    max-height: auto;
+}
+
+body {
+    max-width: 100%;
+    margin: 0;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: local('Merriweather'),
+        url(Merriweather-Black.ttf);
+    font-family: 'Montserrat';
+    src: local('Montserrat'),
+        url(Montserrat-VariableFont_wght.ttf);
+}
+
+.obertka {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.backheadphoto {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+.cube {
+    position: absolute;
+    z-index: 3;
+    top: 40px;
+    left: 100px;
+
+}
+
+.dropdown {
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 1350px;
+    background-color: #ffffff;
+    width: 86px;
+    height: 30px;
+    padding: 14px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+ul {
+    position: absolute;
+    top: 4px;
+    left: -12px;
+    list-style-type: none;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+
+}
+
+ul li:hover+ul {
+    display: inherit;
+
+}
+
+ul ul li {
+    padding-left: 40px;
+    margin-top: 50px;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    float: none;
+    list-style-type: none;
+    display: list-item;
+    position: relative;
+    width: 86px;
+    height: 30px;
+}
+
+.lastchildli {
+    margin-top: 0px;
+
+}
+
+.lastchildli a {
+    color: #F78065;
+}
+
+ul ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Monserrat;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user {
+    float: right;
+}
+
+.headermin {
+    margin-top: 0px;
+    background-color: rgb(248, 248, 248);
+    width: 741px;
+    height: 537px;
+    position: absolute;
+    top: 390px;
+    left: 100px;
+    z-index: 4;
+}
+
+.txt1 {
+    font-family: Merriweather;
+    font-size: 39px;
+    font-weight: bold;
+    width: 521px;
+    margin-left: 64px;
+    margin-top: 96px;
+    position: relative;
+}
+
+.headminb {
+    color: #F78065;
+}
+
+.txt2 {
+    margin-top: 65px;
+    margin-left: 64px;
+    font-family: Montserrat;
+    width: 515px;
+    font-size: 20px;
+    position: relative;
+    font-weight: normal;
+}
+
+button {
+    width: 250px;
+    height: 65px;
+    background-color: #F78065;
+    margin-top: 29px;
+    margin-left: 64px;
+    border: 0px;
+    position: relative;
+}
+
+button b {
+    color: #ffffff;
+    position: absolute;
+    top: 25px;
+    left: 110px;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+button img {
+    left: 80px;
+    top: 23px;
+    position: absolute;
+}
+
+.cont3cont1 button img {
+    margin-top: 6px;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    grid-gap: 10px;
+    margin-top: 400px;
+    height: 606px;
+}
+
+.content div:first-child {
+    margin-left: 168px;
+}
+
+.content div {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+    width: 386px;
+}
+
+img {
+    margin-bottom: 86px;
+}
+
+.txtcont {
+    width: 386px;
+    height: 211px;
+    color: rgb(0, 0, 0);
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+span {
+    position: relative;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: normal;
+    height: 136px;
+}
+
+.content div p b {
+    color: #F78065;
+    font-size: 18px;
+    font-weight: bold;
+    width: 211px;
+    font-family: Montserrat;
+}
+
+.content3 {
+    margin-top: 300px;
+    display: block;
+    position: relative;
+    grid-gap: 10px;
+    width: 100%;
+    margin-right: 0px;
+}
+
+.content3 div {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.content3 div:first-child {
+    margin-left: 120px;
+}
+
+.cont3cont1 {
+    margin-left: 8.3%;
+    position: relative;
+    display: flex;
+    vertical-align: top;
+
+}
+
+.cont3cont1 p {
+    font-family: Merriweather;
+    width: 325px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.cont3cont1 p span {
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cont3cont1 button {
+    margin-left: 0px;
+}
+
+.cont3cont2 {
+    position: relative;
+}
+
+.cont3cont2 img {
+    margin-bottom: 0px;
+}
+
+.cont3cont2 div p {
+    font-style: Merriweather;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cont3cont2 div p span {
+    font-style: Monserat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cont3cont2 div p a {
+    text-decoration: none;
+    color: #F78065;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+h1 {
+    font-family: Merriweather;
+    width: 800px;
+    margin-left: 120px;
+    margin-top: 240px;
+}
+
+.content2 {
+    position: absolute;
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+    grid-gap: 10px;
+}
+
+.content2 div:first-child {
+    margin-left: 8.3%;
+}
+
+.content2 div {
+    margin: auto;
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 100px;
+    width: 211px;
+}
+
+.content2 div p a {
+    color: #F78065;
+    font-size: 18px;
+    font-weight: bold;
+    width: 211px;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+.content4 {
+    position: absolute;
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+    grid-gap: 10px;
+
+}
+
+.content4 div {
+    margin-left: 120px;
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 340px;
+    width: 386px;
+    margin: auto;
+}
+
+.content4 div:first-child {
+    margin-left: 8.3%;
+}
+
+.content5 {
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.content5 div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+hr {
+    width: 85%;
+}
+
+.cont5cont1 {
+    margin-left: 120px;
+}
+
+.cont5cont1 p {
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.cont5cont1 p span {
+    vertical-align: top;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Merriweather;
+
+}
+
+.cont5cont2 {
+    margin-left: 350px;
+}
+
+.cont5cont2 div p {
+    height: auto;
+    top: 0px;
+    font-weight: bold;
+    font-family: Merriweather;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.cont5cont2 div a {
+    margin-top: 0px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Monserrat;
+    font-size: 14px;
+
+}
+
+.cont5cont2 div {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer div {
+    display: inline-block;
+}
+
+.foot1 {
+    margin-left: 120px;
+    vertical-align: top;
+    margin-right: 600px;
+}
+
+.foot1 p {
+    margin-top: 0px;
+}
+
+.foot2 {
+    margin-right: -120px;
+}
+
+.foot2 a {
+    position: relative;
+    margin-top: 0px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Monserrat;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.foot2 a:last-child {
+    margin-top: 0px;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1250px) {
+    body {
+        min-width: 1530px;
+        max-height: 100%;
+        overflow-x: hidden;
+        margin: 0;
+    }
+
+    .obertka {
+        margin: 0;
+        width: 100%;
+        float: none;
+    }
+
+    .bacrkheadphoto {
+        max-width: 1530px;
+        max-height: 100%;
+    }
+
+    .cont3cont2 div:first-child {
+        margin-left: 50px;
+    }
+
+    hr {
+        width: 1530px;
+    }
+
+    .backheadphoto {
+        width: 1530px;
+        height: 100%;
+    }
+
+    content {
+        margin-top: 1000px;
+    }
+
+    .dropdown {
+        left: 1300px;
+    }
+}
